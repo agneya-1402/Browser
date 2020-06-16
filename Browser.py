@@ -5,7 +5,7 @@ from tkinter import *
 
 a=tk.Tk()
 a.title("Browser")
-a.iconbitmap("C:/Users/dhiraj/Pictures/Browser_img/Google_logo.png")
+a.iconbitmap("Google_logo.png")
 
 
 def search():
@@ -32,23 +32,23 @@ def amazon():
 SearchBar=tk.Entry(a,bd=15)
 SearchBar.grid(row=0,column=2)
 
-igoogle=PhotoImage(file="C:/Users/dhiraj/Pictures/Browser_img/Google_logo.png")
+igoogle=PhotoImage(file="Google_logo.png")
 google=tk.Button(a,text="Google",image=igoogle,command=google)
 google.grid(row=1,column=0)
 
-iyoutube=PhotoImage(file="C:/Users/dhiraj/Pictures/Browser_img/Youtube_logo.png")
+iyoutube=PhotoImage(file="Youtube_logo.png")
 youtube=tk.Button(a,text="Youtube",image=iyoutube,command=youtube)
 youtube.grid(row=1,column=1)
 
-itwitter=PhotoImage(file="C:/Users/dhiraj/Pictures/Browser_img/Twitter_logo.png")
+itwitter=PhotoImage(file="Twitter_logo.png")
 twitter=tk.Button(a,text="Twitter",image=itwitter,command=twitter)
 twitter.grid(row=1,column=2)
 
-ifacebook=PhotoImage(file="C:/Users/dhiraj/Pictures/Browser_img/Facebook_logo.png")
+ifacebook=PhotoImage(file="Facebook_logo.png")
 facebook=tk.Button(a,text="facebook",image=ifacebook,command=facebook)
 facebook.grid(row=1,column=3)
 
-iamazon=PhotoImage(file="C:/Users/dhiraj/Pictures/Browser_img/Amazon_logo.png")
+iamazon=PhotoImage(file="Amazon_logo.png")
 amazon=tk.Button(a,text="amazon",image=iamazon,command=amazon)
 amazon.grid(row=1,column=4)
 
